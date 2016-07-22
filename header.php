@@ -13,7 +13,7 @@
     <body>
     <nav class="blue-grey darken-4">
     <div class="nav-wrapper">
-      <a href="http://www.maxalves.com.br/cifras-ukulele/" class="brand-logo center">Acordes de ukulele</a>
+      <a href="http://www.maxalves.com.br/acordes-ukulele/" class="brand-logo center">Acordes de ukulele</a>
       <ul><li><a href="sobre.php">Sobre o projeto</a></li></ul>
     </div>
   </nav>
