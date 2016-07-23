@@ -45,7 +45,7 @@ function getImageChord($api_url){
 	if ($res == 'false') {
 		echo '';
 	}else{
-		echo '<img class="chord-img" src="'. $res .'" alt="" /><br>';
+		echo '<img class="chord-img responsive-img" src="'. $res .'" alt="" /><br>';
 	}
 	//$res = $chord->chord_name;
 	//$res = $chord->chord_name_photo;
