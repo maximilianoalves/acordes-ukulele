@@ -48,6 +48,4 @@ require 'api-cifra.php';
 		</div>
 	</div>
 
-<?php 
-require 'footer.php'; 
-?>
+<?php require 'footer.php'; ?>

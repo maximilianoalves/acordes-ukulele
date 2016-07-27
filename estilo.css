@@ -1,3 +1,7 @@
+html{
+	margin:0;
+	box-sizing:content-box ;
+}
 .body-container{
 	margin-top: 10%;
 }
@@ -9,4 +13,9 @@
 }
 .chord-img{
 	width:400px;
+}
+.return{
+    margin-left: 5%;
+    margin-top: 3%;
+    position: absolute;
 }
