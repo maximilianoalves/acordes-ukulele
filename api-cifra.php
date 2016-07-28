@@ -1,7 +1,6 @@
 
 <?php
 
-
 function montPageChord($nota, $type){
 	$api_url = 'http://www.ukulele-chords.com/get?ak=d41d8cd98f00b204e9800998ecf8427e&r='.$nota.'&typ='.$type;
 	getChord($api_url);
@@ -45,7 +44,7 @@ function getImageChord($api_url){
 
 function getFirstChord($value, $nota){
 	$res = $nota.$value;
-	echo '<a href="nota.php?nota='.$nota.'&type='.$value.'">'.$res.' </a>';
+	echo '<a href="nota.php?nota='.$nota.'&value='.$value.'">'.$res.' </a>';
 }
 
 function chordDiff($api_url){

@@ -4,7 +4,7 @@ require 'header.php';
 require 'api-cifra.php';
 ?>
 	<div class="container body-container">	
-		<form method="post" action="?nota=ok">
+		<form method="post" action="">
 		    <div class="input-field col s6">
   				<select name="search" class="browser-default" required	>
    					<option value="" disabled selected>Selecione o acorde</option>
@@ -40,7 +40,7 @@ require 'api-cifra.php';
 			</h2>
 			<h5>
 			<?php
-				if ( isset( $_GET['nota'] ) && $_GET['nota'] == 'ok' && $_POST['search'] != '' ) {
+				if ( isset( $_POST['action'] )) {
 					montPageHome($_POST['search']);
 				}
 			?>
